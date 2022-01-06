@@ -11,10 +11,10 @@
                 }
                 .nome{
                     margin-top: 30px;
-                    color:#f1418c;
+                    color:#4c4dc2;
                     font-size: 130px;
-                    float: right;
-                    margin-right: 50px;
+                    float: left;
+                    margin-left: 1.5%;
                     font-family: 'Vujahday Script', cursive;
                 
                 }
@@ -22,7 +22,7 @@
                     background-color: #4c4dc2CC;
                     display: flex;
                     position: absolute;
-                    left: 0%;
+                    left: 4%;
                     top: 20%;
                     color: #2fdbc5;
                     margin: 10px;
