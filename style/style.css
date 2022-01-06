@@ -1,0 +1,41 @@
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                .bg {
+                    background-image: url("../Assets/BG.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                
+                .container {
+                    background-color: #4c4dc2CC;
+                    display: flex;
+                    position: absolute;
+                    left: 0%;
+                    top: 25%;
+                    color: #2fdbc5;
+                    margin: 10px;
+                    width: 200px;
+                    padding: 30px;
+                    border-radius: 15%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                h1 {
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+                
+                p {
+                    margin-bottom: 4px;
+                }
+                
+                input {
+                    margin-bottom: 30px;
+                    height: 25px;
+                    width: 190px;
+                }
