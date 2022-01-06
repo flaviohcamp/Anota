@@ -7,31 +7,47 @@
                     background-image: url("../Assets/BG.jpg");
                     background-repeat: no-repeat;
                     background-size: 100%;
+                  
                 }
+                .nome{
+                    margin-top: 30px;
+                    color:#f1418c;
+                    font-size: 130px;
+                    float: right;
+                    margin-right: 50px;
+                    font-family: 'Vujahday Script', cursive;
                 
+                }
                 .container {
                     background-color: #4c4dc2CC;
                     display: flex;
                     position: absolute;
                     left: 0%;
-                    top: 25%;
+                    top: 20%;
                     color: #2fdbc5;
                     margin: 10px;
-                    width: 200px;
-                    padding: 30px;
+                    padding: 80px;
                     border-radius: 15%;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    padding-top: 10px;
+                   
+           
+                    
                 }
                 
-                h1 {
+                h2 {
                     margin-bottom: 50px;
                     text-align: center;
+                    font-size: 50px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    
                 }
                 
                 p {
                     margin-bottom: 4px;
+                    font-size: 25px;
                 }
                 
                 input {
