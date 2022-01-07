@@ -7,6 +7,7 @@
                     background-image: url("../Assets/BG.jpg");
                     background-repeat: no-repeat;
                     background-size: 100%;
+                    background-color:#cfdcff;
                   
                 }
                 .nome{
@@ -23,7 +24,7 @@
                     display: flex;
                     position: absolute;
                     left: 4%;
-                    top: 20%;
+                    top: 23%;
                     color: #2fdbc5;
                     margin: 10px;
                     padding: 80px;
@@ -32,9 +33,8 @@
                     justify-content: center;
                     align-items: center;
                     padding-top: 10px;
-                   
-           
-                    
+
+
                 }
                 
                 h2 {
@@ -55,3 +55,50 @@
                     height: 25px;
                     width: 190px;
                 }
+                @media only screen and (max-width: 800px) {
+                    .bg{
+                        display:flex;
+                        flex-direction: column;
+                        align-items:center;
+                        background-color:#cfdcff;
+                        margin-bottom: 0px;
+                        background-image: url("../Assets/im2.svg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        
+ 
+                    }
+
+                    .nome{
+                        margin-top: 10px;
+                         color:#4c4dc2;
+                        font-size: 100px;
+                        font-family: 'Vujahday Script', cursive;
+
+                    }
+ 
+                   .container{
+                       background-color: #4c4dc2;
+                       position: relative;
+                       padding: 30px;
+                       left: 0%;
+                       margin-top: 0px;
+
+                   }
+                   h2 {
+                    margin-bottom: 20px;
+                    text-align: center;
+                    font-size: 50px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    }
+                    p {
+                        margin-bottom: 4px;
+                        font-size: 40px;
+                    }
+                    input {
+                        margin-bottom: 15px;
+                        height: 25px;
+                        width: 190px;
+                    }
+                }
+
