@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#cfdcff;
+  
+}
+.nome{
+    margin-top: 5px;
+    color:#4c4dc2;
+    font-size: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Vujahday Script', cursive;
+
+}
