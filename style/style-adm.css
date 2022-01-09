@@ -12,21 +12,17 @@
                 .nome{
                     margin-top: 5px;
                     color:#4c4dc2;
-                    font-size: 120px;
+                    font-size: 150px;
                     margin: auto;
                     text-align: center;
                     font-family: 'Vujahday Script', cursive;
                     
                 
                 }
-                .container{
-                    display: inline;
-                    width:200px;
-                    background-color: #4c4dc20F;
-                    justify-content: center;
-                    
+                .container1{
+                    display: flex;
+                    flex-direction: row;
 
-                    
                 }
                 nav{
                     margin: 5px;
@@ -47,19 +43,11 @@
                 }
 
                  .btn{
-                     display: inline;
-                    margin: 5px;
-                    padding:10px;
-                    border: 1px solid;
+                    text-align:end;
+                    padding: 25px;
                     text-align: center;
-                    color: #FFF;
-                    font-size:30px;
+                    color: red;
+                    font-size:25px;
                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    background-color: #4c4dc2;
-                    width: calc(100% - 10px);
                     
-                }
-                button:hover{
-                    background-color: red;
-                    color: #000;
                 }

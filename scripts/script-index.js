@@ -8,8 +8,18 @@ function entrar(){
     var senha = document.getElementById("senha");
     senhaVal= senha.value;
         if (validateEmail(emailVal) === true) {
-            document.location.href ="cadastro.html";
-        }else{alert("Por favor entre com um Email Valido.")}
+            if (senhaVal ==="" || senhaVal=== undefined || senhaVal === null) {
+                alert("Por favor entre com uma Senha Valida.")}else {document.location.href ="cadastro.html";}
+        }else{alert("Por favor entre com um Email Valido.")};
 }
+
+
+
+
+
+
+
+
+
 
 document.getElementById("btn").addEventListener("click", entrar);
